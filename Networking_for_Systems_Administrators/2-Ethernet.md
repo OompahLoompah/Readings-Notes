@@ -22,3 +22,19 @@ Neighbor Discovery:
     - Stale: Were live but have expired from cache
     - Permanent: Either local addresses or special, always-present addresses
     - Failed: Addresses which were looked for but not found
+
+VLANs:
+- Ethernet frames have an extra tag added designating which LAN they belong on
+    - Without this tag frames are assumed to belong to default LAN when they reach network card
+- VLANs are identified by an assigned integer 1 - 4096
+- Hosts can use virtual interfaces to manage VLANs, each of which has its own IP configuration
+- VLANs often described as 802.1Q
+
+- Most common datalink errors are:
+    - Drops
+    - Overruns
+    - Frame Errors
+    - Collisions
+    - These errors reduce performance but won't necessarily bring the link down.
+        - Unix: use `netstat -i` to view total count of these errors since boot and other stats
+ 
