@@ -3,10 +3,10 @@
 ## Chapter 2: Ethernet
 
 ### Frames:
-- minimum frame sizes to allow checksumming of frames without new frames coming in too quickly overloading the system
+- Having a minimum frame sizes to allow checksumming of frames without new frames coming in too quickly overloading the system
 - minimum frame size also prevents collisions... somehow
     - RESEARCH ME
-- Maximum frame size (MTU - Maximum Transmission Unit) prevents any one interface from hogging the connection transmitting an endless frame
+- Having a maximum frame size (MTU - Maximum Transmission Unit) prevents any one interface from hogging the connection transmitting an endless frame
 - Default MTU is 1500 bytes
 
 ### Address Resolution Protocol:
