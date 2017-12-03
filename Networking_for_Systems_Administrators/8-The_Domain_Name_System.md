@@ -1,6 +1,6 @@
 # Networking for Systems Administrators
 
-## Chapter 8: the Domain Name System
+## Chapter 8: The Domain Name System
 
 ### Domains and Zones
 - A zone within a zone is a child zone
